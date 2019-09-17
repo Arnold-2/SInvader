@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Component">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <AssociationLine Name="pChildHead" Type="SpaceInvaders.Component" ManuallyRouted="true">
+      <Path>
+        <Point X="4.5" Y="3.937" />
+        <Point X="4" Y="3.937" />
+        <Point X="4" Y="4.304" />
+        <Point X="4.5" Y="4.304" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.735" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pNextSibling" Type="SpaceInvaders.Component" ManuallyRouted="true">
+      <Path>
+        <Point X="6" Y="3.937" />
+        <Point X="6.396" Y="3.937" />
+        <Point X="6.396" Y="4.304" />
+        <Point X="6" Y="4.304" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.527" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pParent" Type="SpaceInvaders.Component" ManuallyRouted="true">
+      <Path>
+        <Point X="5.028" Y="4.733" />
+        <Point X="5.028" Y="5.295" />
+        <Point X="5.167" Y="5.295" Type="JumpStart" />
+        <Point X="5.333" Y="5.295" Type="JumpEnd" />
+        <Point X="5.483" Y="5.295" />
+        <Point X="5.483" Y="4.733" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.652" Y="0.206" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pPrevSibling" Type="SpaceInvaders.Component" ManuallyRouted="true">
+      <Path>
+        <Point X="5.028" Y="3.5" />
+        <Point X="5.028" Y="3" />
+        <Point X="5.167" Y="3" Type="JumpStart" />
+        <Point X="5.333" Y="3" Type="JumpEnd" />
+        <Point X="5.483" Y="3" />
+        <Point X="5.483" Y="3.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.652" Y="0.206" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pChildHead" />
+      <Field Name="pNextSibling" />
+      <Field Name="pParent" />
+      <Field Name="pPrevSibling" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAIAABBAAA=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="4.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQIAAAAAIIAFCgACAAAgICgAggAYAAAABAIgAIAAkA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

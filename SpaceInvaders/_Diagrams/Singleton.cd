@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.TextureManager">
+    <Position X="2.5" Y="3" Width="2.25" />
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.TextureManager" ManuallyRouted="true">
+      <Path>
+        <Point X="3.298" Y="5.002" />
+        <Point X="3.298" Y="5.481" />
+        <Point X="3.968" Y="5.481" />
+        <Point X="3.968" Y="5.002" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.161" Y="0.643" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAQKAAAAAAA=</HashCode>
+      <FileName>GameObjects\Resource\TextureManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.StartScreenState">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <AssociationLine Name="privInstance" Type="SpaceInvaders.StartScreenState" ManuallyRouted="true">
+      <Path>
+        <Point X="8.032" Y="6.896" />
+        <Point X="8.032" Y="7.761" />
+        <Point X="8.478" Y="7.761" />
+        <Point X="8.478" Y="6.896" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.652" Y="0.31" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAIAAACAAAAAAAYAAAAAAAAMAAA=</HashCode>
+      <FileName>State\StartScreenState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="privInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
